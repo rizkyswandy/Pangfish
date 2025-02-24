@@ -1,0 +1,4 @@
+include twofish.h
+include makeCtables.py
+include myref.py
+include README.md
