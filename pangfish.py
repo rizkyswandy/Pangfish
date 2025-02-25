@@ -5,8 +5,8 @@ This module includes Twofish encryption and a hybrid cryptosystem with Multi-Pow
 
 import hashlib
 from _twofish import Twofish as _Twofish
-from hybrid import HybridCryptosystem
-from c_multipowerrsa import MultiPowerRSA
+from .hybrid import HybridCryptosystem
+from .c_multipowerrsa import MultiPowerRSA
 
 def derive_key(key_material, size=16):
     """Convert any input to a valid key of specified size (16, 24, or 32 bytes)"""

@@ -6,7 +6,7 @@ import os
 import secrets
 import base64
 import json
-from c_multipowerrsa import MultiPowerRSA
+from .c_multipowerrsa import MultiPowerRSA
 
 class HybridCryptosystem:
     def __init__(self):

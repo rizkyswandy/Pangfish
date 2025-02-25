@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: pangfish
-Version: 0.7.0
+Version: 0.7.3
 Summary: Pangfish encryption library with Twofish and Multi-Power RSA by Pang Construction
 Author: Rizky Azmi Swandy
 Author-email: rizkyswandy@gmail.com
@@ -9,7 +9,8 @@ Classifier: Intended Audience :: Developers
 Classifier: Topic :: Security :: Cryptography
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: C
-Requires-Python: >=3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10,<3.11
 License-File: LICENSE
 Dynamic: author
 Dynamic: author-email
